@@ -5,9 +5,9 @@ clc
 % Input signal generation and flags initialization
 trans = 0;
 Ts = 1;
-N = 40;                                                  % System dimension
+N = 20;                                                  % System dimension
 L = 4*550;                                                % Signal Length
-notests = 10;                                            % Number of tests
+notests = 1;                                            % Number of tests
 noise = rand(1,L);                                       % White Noise
 contorr = 0;
 avgynet = 0;
@@ -165,8 +165,8 @@ for count=1:notests
         Bnetwork = 2*rand(Nnet,1)-1;                            % Network input matrix
         Bnetwork = (9*rand+1)*Bnetwork/(norm(Anetwork)*norm(Bnetwork))*mean(mean(input_training));
         Dnetwork = Dtarget;
-        Cnetwork = zeros(1,Nnet);                           % Network output matrix
-        Knetwork = rand(1,Nnet);                           % Network feedback matrix
+        Cnetwork = zeros(1,Nnet);                               % Network output matrix
+        Knetwork = rand(1,Nnet);                                % Network feedback matrix
         factooo = 0;
 
         Initstate = zeros(3*length(Anetwork(1,:)),1);
@@ -225,7 +225,7 @@ for count=1:notests
     Bfnetwork = Bnetwork;                                       % Network input matrix
     Dfnetwork = Dtarget;
     Cfnetwork = zeros(1,Nnet);                                  % Network output matrix
-    Kfnetwork = max(max(abs(Afnetwork)))*sqrt(Nnet)*(2*rand(Nnet,1)-1);                                  % Network feedback matrix
+    Kfnetwork = 2*rand(Nnet,1)-1;                   % Network feedback matrix
 
     [errf,outputpred,Cfnetwork] = FORCEpp(Nnet, Anetwork, Bnetwork, input_training, orig_output_training, input, output, input_validation, output_validation, rho, mean_output_training, tranz, trans,Ts,Kfnetwork);
     yfnet = outputpred;
