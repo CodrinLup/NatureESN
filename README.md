@@ -1,4 +1,4 @@
-# Advanced Training of Echo State Networks with state-feedback
+# Adaptive State-feedback Echo State Networks for Temporal Sequence Learning
 
 This is the Matlab code for the results and figures in our paper "Adaptive State-feedback Echo State Networks for Temporal Sequence Learning".
 
