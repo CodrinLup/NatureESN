@@ -2,7 +2,9 @@
 
 This is the Matlab code for the results and figures in our paper "Adaptive State-feedback Echo State Networks for Temporal Sequence Learning".
 
-The main program can be launched by running main.m in Matlab. The minimum required version is R2021b Update 7 (9.11.0.2358333). 
+The main program can be launched by running main.m in Matlab. Main steps in the implementation are commented in the main program.
+
+The minimum required version is R2021b Update 7 (9.11.0.2358333). 
 
 The programs are organised in 4 folders:
   ---Synthetic Linear Example - AFRICO vs FORCE - is Example A
