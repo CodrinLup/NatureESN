@@ -30,3 +30,5 @@ Each folder contains the main program main.m accompanied by some functions files
   ---statepredgen - computes the states of the ESN for a specific input
   
   ---targetstategen - computes the target states corresponding to the target system generated in Examples A and B
+  
+  ---FORCEpp.m - computes the output-feedback ESN trained using FORCE algorithm
