@@ -7,6 +7,7 @@ The main program can be launched by running main.m in Matlab. Main steps in the 
 The minimum required version is R2021b Update 7 (9.11.0.2358333). 
 
 The programs are organised in 4 folders:
+  
   ---Synthetic Linear Example - AFRICO vs FORCE - is Example A
   
   ---Synthetic Non-linear Example - AFRICO vs FORCE - is Example B
