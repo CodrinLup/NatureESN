@@ -32,3 +32,5 @@ Each folder contains the main program main.m accompanied by some functions files
   ---targetstategen - computes the target states corresponding to the target system generated in Examples A and B
   
   ---FORCEpp.m - computes the output-feedback ESN trained using FORCE algorithm
+
+  ---wei.m - computes the orthogonalisation term used for orthogonalising the unselected regressors
