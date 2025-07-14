@@ -6,13 +6,11 @@ The main program can be launched by running main.m in Matlab. Main steps in the 
 
 The minimum required version is R2021b Update 7 (9.11.0.2358333). 
 
-The programs are organised in 4 folders:
+The programs are organised in 3 folders, highlighting the breakdown of the main advantages brought by AFRICO:
   
   ---Synthetic Linear Example - AFRICO vs FORCE - is Example A
   
   ---Synthetic Non-linear Example - AFRICO vs FORCE - is Example B
-  
-  ---Fruitfly - AFRICO with input lags - is Example C
   
   ---NARMA10 Example - is Example D
 
