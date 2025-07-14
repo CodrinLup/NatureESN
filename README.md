@@ -10,7 +10,7 @@ The programs are organised in 3 folders, highlighting the breakdown of the main 
   
   ---Synthetic Linear Example - AFRICO vs FORCE - is Example A
   
-  ---Synthetic Non-linear Example - AFRICO vs FORCE - is Example B
+  ---Synthetic Non-linear Example - AFRICO vs FORCE - is Example B; Example C is a direct derivation from the code presented for Example B
   
   ---NARMA10 Example - is Example D
 
